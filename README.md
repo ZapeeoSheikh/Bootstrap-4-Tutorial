@@ -1,5 +1,5 @@
 # Bootstrap-4-Tutorial
-This repository contians bootstrap 4 class styles and impovments that are in bootstrap 3 but no longer in 4
+- This repository contians bootstrap 4 class styles and impovments that are in bootstrap 3 but no longer in 4
 
 ## Difference between Bootstrap 3 and Bootstrap 4
 
