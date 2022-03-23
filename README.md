@@ -9,7 +9,7 @@ This repository contians bootstrap 4 class styles and impovments that are in boo
 **Navbar:**
 >In 3 we are 2 colors or navbar given by default one is navbar-default and other is navbar-inverse. The inverse was black color but now in 4 no need to give inverse we just need to type navbar-dark, info, danger, secondary, ….(bootstrap 4✔️)
 
->Another thing I noted is that in Bootstrap 3 there was a slide icon for nav responsive but is now removed in bootstrap 4     
+>< Another thing I noted is that in Bootstrap 3 there was a slide icon for nav responsive but is now removed in bootstrap 4     
 …. (like bootstrap 3 ✔️)
 
 **Padding and Margin :**
