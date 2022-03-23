@@ -1,0 +1,227 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Octocat Limited</a>
+
+    <button data-toggle="collapse" data-target="#demo">Links</button>
+
+    <div id="demo" class="collapse">
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+@*Covered about containers, jumbotron, bg color, text color and Grid Layout*@
+<div class="container-fluid">
+    <h1 class="jumbotron">Welcome to Bootstrap 4 </h1>
+    <div class=" row">
+        <div class="col">
+            <h3 class="text-danger"> Class 1 </h3>
+            <img src="~/image/apple2.jpg" style="height: 200px; width: 350px " />
+            <p class="text-dark bg-light ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+
+        <div class="col">
+            <h3 class="text-danger "> Class 2 </h3>
+            <img src="~/image/jason-blackeye-pLmNaIqTXJk-unsplash.jpg" style="height: 200px; width: 350px " />
+            <p class="text-secondary bg-warning">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+
+        <div class="col">
+            <h3 class="text-danger "> Class 3 </h3>
+            <img src="~/image/nordwood-themes-F3Dde_9thd8-unsplash.jpg" style="height: 200px; width: 350px " />
+            <p class="text-white bg-dark ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+
+        <div class="col">
+            <h3 class="text-danger "> Class 4 </h3>
+            <img src="~/image/nicolas-j-leclercq-gbG65gRAGx4-unsplash.jpg" style="height: 200px ; width: 349px " />
+            <p class="text-light bg-danger ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+    </div>
+    <div class="">
+        <img src="~/image/apple2.jpg" class="float-left rounded-circle" />
+        <img src="~/image/apple2.jpg" class=" img-fluid rounded mx-auto d-block" />
+
+    </div>
+    <hr />
+
+
+
+    @*Table Start here*@
+
+    <h3 class="bg-dark text-light"> This is an Informative table </h3>
+    <div class="alert alert-dark" alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Details !</strong> All important information that is requied for your identofications
+    </div>
+    <table class="table table-dark table-striped">
+        <tr class="">
+            <td> Name </td>
+            <td> DOB </td>
+            <td> Cinc  </td>
+            <td> Phone  </td>
+            <td> Postal Code  </td>
+        </tr>
+        <tr class="">
+            <td> Muhammad Rameez  </td>
+            <td> 7-8-2003 </td>
+            <td> 1234567890  </td>
+            <td> 1234567890  </td>
+            <td> 1234567890  </td>
+        </tr>
+        <tr class="">
+            <td> Zapeeo Sheikh  </td>
+            <td> 13-2-23 </td>
+            <td> 123456789  </td>
+            <td> 123456789  </td>
+            <td> 123456789  </td>
+        </tr>
+        <tr class="">
+            <td> Ahmed </td>
+            <td> 23-3-23 </td>
+            <td> 123456789  </td>
+            <td> 123456789  </td>
+            <td> 123456789  </td>
+        </tr>
+        <tr class="">
+            <td> Ali </td>
+            <td> 23-3-22 </td>
+            <td> 123456789  </td>
+            <td> 123456789  </td>
+            <td> 123456789  </td>
+        </tr>
+    </table>
+
+
+    @*buttons*@
+
+    <div class="btn btn-outline-secondary"> Hello World </div>
+    <div class="btn btn-outline-dark"> Hello World </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-outline-danger">Colors</button>
+        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+            <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu bg-secondary ">
+            <a class="dropdown-item " href="#">Red</a>
+            <a class="dropdown-item bg-danger active" href="#">Blue</a>
+            <a class="dropdown-item" href="#">Green</a>
+            <a class="dropdown-item" href="#">Yellow</a>
+        </div>
+    </div>
+
+
+    @*badges*@
+
+
+    <div>
+        <span class="badge badge-secondary">Secondary</span>
+        <span class="badge badge-light">Light</span>
+        <span class="badge badge-dark">Dark</span>
+    </div>
+
+
+
+    @*Spinners*@
+
+    <div class="spinner-border text-danger "></div>
+    <div class="spinner-grow float-right text-secondary "></div>
+    <div class="spinner-grow float-right text-warning "></div>
+    <div class="spinner-grow float-right text-dark "></div>
+    <div class="spinner-grow float-right text-success "></div>
+    <div class="spinner-grow float-right text-primary "></div>
+
+    <div class="row">
+        <div class="card  col" style="width:20rem;margin:20px 0 24px 0">
+            <img src="~/image/apple2.jpg" class="card-img-top" />
+            <div class="card-body">
+                <div class="card-title">Iphone 13 pro max</div>
+                <div class="card-text">This is a very beautiful Phone. The name of this phone is iphone 13 pro max. This is a very deliget phone but till now noone beats this phones feature </div>
+
+            </div>
+        </div>
+        <div class="card  col" style="width:20rem;margin:20px 0 24px 0">
+            <img src="~/image/apple2.jpg" class="card-img-top" />
+            <div class="card-body">
+                <div class="card-title">Iphone 13 pro max</div>
+                <div class="card-text">This is a very beautiful Phone. The name of this phone is iphone 13 pro max. This is a very deliget phone but till now noone beats this phones feature </div>
+
+            </div>
+        </div>
+        <div class="card  col" style="width:20rem;margin:20px 0 24px 0">
+            <img src="~/image/apple2.jpg" class="card-img-top" />
+            <div class="card-body">
+                <div class="card-title">Iphone 13 pro max</div>
+                <div class="card-text">This is a very beautiful Phone. The name of this phone is iphone 13 pro max. This is a very deliget phone but till now noone beats this phones feature </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="1" class="active"></li>
+            <li data-target="#demo" data-slide-to="0"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <div class="carousel-inner">
+            <div class="carousel-item ">
+                <img src="~/image/apple2.jpg" alt="Los Angeles">
+            </div>
+            <div class="carousel-item">
+                <img src="~/image/jason-blackeye-pLmNaIqTXJk-unsplash.jpg" alt="Chicago">
+            </div>
+            <div class="carousel-item active">
+                <img src="~/image/nicolas-j-leclercq-gbG65gRAGx4-unsplash.jpg" alt="New York">
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+
+        <button type="button" class="btn btn-warning" id="myBtn">Show Toast</button>
+
+        <div class="toast">
+            <div class="toast-header">
+                Press me 
+            </div>
+            <div class="toast-body">
+                Don't Disturb me !?
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+
